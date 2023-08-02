@@ -33,3 +33,9 @@ puts animals[0]    # should print: lizards
 # acceessing last element in the array and dont know how many elements exist
 # the element of last index is total length of array minus 1
 puts animals[animals.length - 1]  # should print: snails
+
+
+# new array method
+# reverse, reverses order of array
+nums = [1, 2, 3]
+p nums.reverse     # should print: [3, 2, 1]
